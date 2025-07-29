@@ -1,0 +1,67 @@
+🔍 What is Web Scraping?
+Web scraping is the automated process of extracting data from websites. It involves making HTTP requests to a website, retrieving the HTML content, and parsing that content to extract the desired information — such as product details, news articles, or stock prices.
+
+⚙️ How Web Scraping Works
+Send a Request:
+A script sends an HTTP request to a web page (GET request).
+
+Receive the Response:
+The server responds with HTML content.
+
+Parse the HTML:
+Tools like BeautifulSoup or lxml parse the HTML to locate specific data.
+
+Extract and Store Data:
+Extracted data is cleaned and saved in formats like CSV, JSON, Excel, or a database.
+
+🧰 Popular Tools & Libraries
+🔹 Python-Based Tools:
+Requests: To make HTTP requests.
+
+BeautifulSoup: To parse HTML and XML documents.
+
+Scrapy: A full-fledged web scraping and crawling framework.
+
+Selenium: For scraping JavaScript-heavy sites (simulates a browser).
+
+Playwright / Puppeteer: Modern alternatives to Selenium for headless browser automation.
+
+🔹 Other Languages:
+Cheerio (Node.js)
+
+Jsoup (Java)
+
+HttpClient & HTMLAgilityPack (.NET)
+
+🛡️ Ethical & Legal Considerations
+Check robots.txt: Respect a site’s robots.txt file to see if scraping is allowed.
+
+Avoid scraping login-protected or private content without permission.
+
+Rate limiting & polite scraping: Avoid sending too many requests too quickly — this can overwhelm the server or get you IP-banned.
+
+Don't use scraped data commercially without rights.
+
+🚫 Some sites (like LinkedIn or Facebook) have strict anti-scraping policies and legal protections.
+
+📊 Real-World Use Cases
+E-commerce: Price comparison, monitoring competitors, product listing extraction.
+
+Finance: Stock prices, news aggregation, financial reports.
+
+Job Market: Aggregating job postings from portals.
+
+Travel: Scraping flight and hotel prices for deals.
+
+Sentiment Analysis: Extracting reviews or social media content.
+
+Academic Research: Collecting data from online journals, articles, or surveys.
+
+🏗️ Challenges in Web Scraping
+Anti-scraping mechanisms: Captchas, dynamic content, IP blocking.
+
+JavaScript rendering: Many modern websites dynamically load data with JavaScript, requiring headless browsers.
+
+Frequent website structure changes: Breaks the scraper, requiring maintenance.
+
+Pagination and infinite scrolling: Needs logic to handle page navigation.
